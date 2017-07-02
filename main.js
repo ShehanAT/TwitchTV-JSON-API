@@ -30,7 +30,7 @@ $(document).ready(function(){
                 var logo;
                 var status;
                 var name;
-            if (data3.error){
+            if (data3.error){    //THIS PART NOT WORKING
                 logo = "https://s3-us-west-2.amazonaws.com/web-design-ext-production/p/Combologo_474x356.png";
                 name = data3.message;
                 status = data3.error;
